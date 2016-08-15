@@ -38,9 +38,7 @@
     </dependencies>
 
     <build>
-
         <finalName>brackets</finalName>
-
         <plugins>
             <!-- Findbugs plugin -->
             <plugin>
@@ -88,8 +86,19 @@
                     <port>9991</port>
                 </configuration>
             </plugin>
-
+            <!--Tomcat plugin -->
+            <!--<plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://127.0.0.1:8080/manager/text</url>
+                    <update>true</update>
+                    <path>/${build.finalName}</path>
+                    <username>admin</username>
+                    <password>admin</password>
+                </configuration>
+            </plugin> -->
         </plugins>
     </build>
 </project>
-
