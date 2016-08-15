@@ -2,4 +2,4 @@
 [![Coverage Status](https://coveralls.io/repos/OKaluzny/brackets/badge.svg?branch=master&service=github)](https://coveralls.io/github/OKaluzny/brackets?branch=master)
 
 # brackets
-Project is sandbox 1.0.0
+
