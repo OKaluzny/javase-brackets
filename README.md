@@ -13,6 +13,10 @@ One of the solutions to the problem about the brackets.
 * Static Analysis - [FindBugs 3.0.1](http://findbugs.sourceforge.net/)
 * Application Server - [WildFly 10.0.0.Final](http://wildfly.org/)
 
+# Library
+
+* Guava: Google Core Libraries for Java - [Guava 19](https://github.com/google/guava/wiki/Release19)
+
 # Build and Deploy
 
 Scripts for the local environment:
