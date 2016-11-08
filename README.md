@@ -1,6 +1,6 @@
 # One of the solutions to the problem about the brackets.
 
-[![Build Status](https://travis-ci.org/OKaluzny/brackets.svg?branch=master)](https://travis-ci.org/OKaluzny/brackets)
+[![Build Status](https://travis-ci.org/OKaluzny/BracketsMaven.svg?branch=master)](https://travis-ci.org/OKaluzny/BracketsMaven)
 [![Coverage Status](https://coveralls.io/repos/github/OKaluzny/brackets/badge.svg?branch=master)](https://coveralls.io/github/OKaluzny/brackets?branch=master)
 
 # Tools
