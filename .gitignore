@@ -1,11 +1,8 @@
 # Maven
 target
 
-# Eclipse
-.project
-.settings
-.classpath
-
 # IntelliJ IDEA
 .idea
 brackets.iml
+
+src/main/resources/
