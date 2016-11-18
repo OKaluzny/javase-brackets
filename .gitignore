@@ -2,7 +2,8 @@
 target
 
 # IntelliJ IDEA
-.idea
-brackets.iml
+*.idea
+*.iml
+.gradle
 
 src/main/resources/

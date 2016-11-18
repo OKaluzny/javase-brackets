@@ -16,7 +16,13 @@
 
 ### Build and Deploy
 
-Scripts for the local environment:
+Scripts for the local environment for Maven:
 
 * `app-build` - build the application.
 * `app-deploy` - deploy the application.
+
+# Build and Deploy
+
+Scripts for the local environment for Gradle:
+
+* `gradlew` - build the application.

@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.logging.Logger;
 
-public final class Brackets {
+final class Brackets {
 
     private static final Logger LOGGER = Logger.getLogger(Brackets.class.getName());
     private static Map<Character, Character> BRACKETS = ImmutableMap.of(')', '(', ']', '[', '}', '{');
@@ -16,7 +16,7 @@ public final class Brackets {
     private Brackets() {
     }
 
-    public static boolean checkBrackets(String text) {
+    static boolean checkBrackets(String text) {
 
         LOGGER.info(String.format("Initialize."));
         Objects.requireNonNull(text);
