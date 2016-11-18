@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kaluzny</groupId>
-    <artifactId>brackets</artifactId>
+    <artifactId>javase-brackets</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
-    <name>brackets</name>
+    <name>javase-brackets</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +38,7 @@
     </dependencies>
 
     <build>
-        <finalName>brackets</finalName>
+        <finalName>javase-brackets</finalName>
         <plugins>
             <!-- Findbugs plugin -->
             <plugin>

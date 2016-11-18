@@ -1,6 +1,6 @@
 ## One of the solutions to the problem about the brackets.
 
-[![Build Status](https://travis-ci.org/OKaluzny/bracketsMaven.svg?branch=master)](https://travis-ci.org/OKaluzny/bracketsMaven)
+[![Build Status](https://travis-ci.org/OKaluzny/javase-brackets.svg?branch=master)](https://travis-ci.org/OKaluzny/javase-brackets)
 [![Coverage Status](https://coveralls.io/repos/github/OKaluzny/brackets/badge.svg?branch=master)](https://coveralls.io/github/OKaluzny/brackets?branch=master)
 
 ### Tools
@@ -16,13 +16,11 @@
 
 ### Build and Deploy
 
-Scripts for the local environment for Maven:
+Scripts for the local environment for `Maven`:
 
 * `app-build` - build the application.
 * `app-deploy` - deploy the application.
 
-# Build and Deploy
-
-Scripts for the local environment for Gradle:
+Scripts for the local environment for `Gradle`:
 
 * `gradlew` - build the application.

@@ -7,3 +7,4 @@ target
 .gradle
 
 src/main/resources/
+.gradle/
