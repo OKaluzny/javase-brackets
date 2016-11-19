@@ -1,13 +1,30 @@
+# Java build artifacts class files
+*.class
+
+# other generated files
+bin/
+gen/
+build/
+
+# local configuration file (for Android sdk path, etc)
+local.properties
+
+# OSX files
+.DS_Store
+
+# Eclipse
+.project
+.settings
+.classpath
+
+# IntelliJ IDEA
+*.iml
+.idea
+.gradle
+
+#NDK
+obj/
 # Maven
 target
 
-# IntelliJ IDEA
-*.idea
-*.iml
-.gradle
-
-src/main/resources/
-.gradle/
-/gradle/
-/build/
-build/
+travis-ci.bat

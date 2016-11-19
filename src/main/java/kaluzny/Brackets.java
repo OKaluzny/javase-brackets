@@ -1,31 +1,28 @@
 package kaluzny;
 
-import com.google.common.collect.ImmutableMap;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Map;
 import java.util.Objects;
-import java.util.logging.Logger;
+
+import com.google.common.collect.ImmutableMap;
 
 public final class Brackets {
+	
+	 public static void main(String[] args){
+	    	
+	    	System.out.println("Gradle build");
 
-    public static void main(String[] args){
+		}
 
-        System.out.println("Gradle build");
-
-    }
-
-    private static final Logger LOGGER = Logger.getLogger(Brackets.class.getName());
     private static Map<Character, Character> BRACKETS = ImmutableMap.of(')', '(', ']', '[', '}', '{');
 
     private Brackets() {
     }
 
-    static boolean checkBrackets(String text) {
-
-        LOGGER.info(String.format("Initialize."));
+    public static boolean checkBrackets(String text) {
         Objects.requireNonNull(text);
+
         Deque<Character> brackets = new ArrayDeque<Character>();
         for (Character symbol : text.toCharArray()) {
             if (BRACKETS.containsValue(symbol)) {
@@ -39,6 +36,8 @@ public final class Brackets {
                 }
             }
         }
+
         return brackets.isEmpty();
     }
+   
 }

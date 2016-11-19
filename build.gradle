@@ -9,30 +9,30 @@ apply plugin: "com.github.kt3k.coveralls"
 mainClassName = 'kaluzny.Brackets'
 
 buildscript {
-    repositories {
-        mavenCentral()
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
-        mavenLocal()
+  repositories {
+    mavenCentral()
+    maven {
+      url "https://plugins.gradle.org/m2/"
     }
-    dependencies {
-        classpath "net.saliman:gradle-cobertura-plugin:2.3.2"
-        classpath "org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.7.1"
-        classpath 'org.codehaus.groovy:groovy-backports-compat23:2.4.7'
-    }
+	mavenLocal()
+  }
+  dependencies {
+    classpath "net.saliman:gradle-cobertura-plugin:2.3.2"
+	classpath "org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.7.1"
+	classpath 'org.codehaus.groovy:groovy-backports-compat23:2.4.7'
+  }
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '19.0'
     testCompile group: 'junit', name: 'junit', version: '4.+'
-    testRuntime 'net.sourceforge.cobertura:cobertura:2.1.1'
+	testRuntime 'net.sourceforge.cobertura:cobertura:2.1.1'
 }
 //cobertura.coverageFormats = ['html', 'xml']
 
