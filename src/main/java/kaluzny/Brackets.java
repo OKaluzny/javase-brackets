@@ -8,13 +8,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.logging.Logger;
 
-public final class Brackets {
-
-    public static void main(String[] args){
-
-        System.out.println("Gradle build");
-
-    }
+final class Brackets {
 
     private static final Logger LOGGER = Logger.getLogger(Brackets.class.getName());
     private static Map<Character, Character> BRACKETS = ImmutableMap.of(')', '(', ']', '[', '}', '{');
