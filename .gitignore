@@ -8,3 +8,6 @@ target
 
 src/main/resources/
 .gradle/
+/gradle/
+/build/
+build/

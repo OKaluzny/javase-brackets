@@ -22,8 +22,8 @@ buildscript {
         classpath 'org.codehaus.groovy:groovy-backports-compat23:2.4.7'
     }
 }
-//sourceCompatibility = 1.8
-//targetCompatibility = 1.8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
